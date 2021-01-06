@@ -1,12 +1,10 @@
 <!DOCTYPE HTML>
 <!--
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+20210106 build	
 -->
 <html>
 	<head>
-		<title>Miniport by HTML5 UP</title>
+		<title>welcome to Jack Zhang computescience website</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -16,10 +14,10 @@
 		<!-- Nav -->
 			<nav id="nav">
 				<ul class="container">
-					<li><a href="#top">Top</a></li>
-					<li><a href="#work">Work</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li><a href="#top">顶端</a></li>
+					<li><a href="#work">工作</a></li>
+					<li><a href="#portfolio">最近在做</a></li>
+					<li><a href="#contact">联系方式</a></li>
 				</ul>
 			</nav>
 
@@ -32,10 +30,10 @@
 						</div>
 						<div class="col-8 col-7-large col-12-medium">
 							<header>
-								<h1>Hi. I'm <strong>Jane Doe</strong>.</h1>
+								<h1>嗨. 我是 <strong>JackZhang</strong>.</h1>
 							</header>
-							<p>And this is <strong>Miniport</strong>, a free, fully responsive HTML5 site template designed by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a> &amp; released under the <a href="http://html5up.net/license">CCA license</a>.</p>
-							<a href="#work" class="button large scrolly">Learn about what I do</a>
+							<p>欢迎来到 <strong>我的个人网站</strong>, 这是一个为计算机科学交流的平台。<a href="https://github.com/fujinan">我的github</a> ,<a href="https://weibo.com/u/5138807376/home/">我的微博</a> 和 <a href="https://space.bilibili.com/401795503">我的哔哩哔哩</a> 以及 <a href="https://www.zhihu.com/people/zhang-jie-72-82-24">我的知乎</a>.</p>
+							<a href="#work" class="button large scrolly">学习一下我在做什么</a>
 						</div>
 					</div>
 				</div>
@@ -45,8 +43,14 @@
 			<article id="work" class="wrapper style2">
 				<div class="container">
 					<header>
-						<h2>Here's all the stuff I do.</h2>
-						<p>Odio turpis amet sed consequat eget posuere consequat.</p>
+						<h2>这里是我做的所有工作.</h2>
+						<p>题目：删除最外层的括号</p>
+						<p>有效括号字符串为空 ("")、"(" + A + ")" 或 A + B，其中 A 和 B 都是有效的括号字符串，+ 代表字符串的连接。例如，""，"()"，"(())()" 和 "(()(()))" 都是有效的括号字符串。</p>
+						<p>如果有效字符串 S 非空，且不存在将其拆分为 S = A+B 的方法，我们称其为原语（primitive），其中 A 和 B 都是非空有效括号字符串。</p>
+						<p>给出一个非空有效字符串 S，考虑将其进行原语化分解，使得：S = P_1 + P_2 + ... + P_k，其中 P_i 是有效括号字符串原语。</p>
+						<p>对 S 进行原语化分解，删除分解中每个原语字符串的最外层括号，返回 S 。</p>
+	
+						<p>小结：主要是构造一个辅助栈，随着遍历，弹出左括号，利用栈是否为空，确定边际括号</p>
 					</header>
 					<div class="row aln-center">
 						<div class="col-4 col-6-medium col-12-small">
@@ -82,15 +86,15 @@
 			<article id="portfolio" class="wrapper style3">
 				<div class="container">
 					<header>
-						<h2>Here’s some stuff I made recently.</h2>
-						<p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p>
+						<h2>这里是一些我最近正在做的事情.</h2>
+						<p>都是与计算机技术相关的事情.</p>
 					</header>
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-								<h3><a href="#">Magna feugiat</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<a href="#" class="image featured"><img src="images/picLLOGO.jpg" alt="" /></a>
+								<h3><a href="https://leetcode-cn.com/u/cn-jackzhang/">最近每天在刷leetcode</a></h3>
+								<p>每天刷10题，每刷一题都会在<a href="https://github.com/fujinan">我的github</a>上面上传我的代码与思路，还会做一个小结.</p>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
@@ -130,8 +134,8 @@
 						</div>
 					</div>
 					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#contact" class="button large scrolly">Get in touch with me</a>
+						<p>我们可以进行一些交流吗？</p>
+						<a href="#contact" class="button large scrolly">与我联系</a>
 					</footer>
 				</div>
 			</article>
@@ -140,29 +144,29 @@
 			<article id="contact" class="wrapper style4">
 				<div class="container medium">
 					<header>
-						<h2>Have me make stuff for you.</h2>
-						<p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
+						<h2>有什么东西可以联系我的吗.</h2>
+						<p>可以发送邮件与我联系.</p>
 					</header>
 					<div class="row">
 						<div class="col-12">
 							<form method="post" action="#">
 								<div class="row">
 									<div class="col-6 col-12-small">
-										<input type="text" name="name" id="name" placeholder="Name" />
+										<input type="text" name="name" id="name" placeholder="名字" />
 									</div>
 									<div class="col-6 col-12-small">
-										<input type="text" name="email" id="email" placeholder="Email" />
+										<input type="text" name="email" id="email" placeholder="邮箱" />
 									</div>
 									<div class="col-12">
-										<input type="text" name="subject" id="subject" placeholder="Subject" />
+										<input type="text" name="subject" id="subject" placeholder="主题" />
 									</div>
 									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Message"></textarea>
+										<textarea name="message" id="message" placeholder="信息"></textarea>
 									</div>
 									<div class="col-12">
 										<ul class="actions">
-											<li><input type="submit" value="Send Message" /></li>
-											<li><input type="reset" value="Clear Form" class="alt" /></li>
+											<li><input type="submit" value="发送 信息" /></li>
+											<li><input type="reset" value="清除" class="alt" /></li>
 										</ul>
 									</div>
 								</div>
@@ -170,7 +174,7 @@
 						</div>
 						<div class="col-12">
 							<hr />
-							<h3>Find me on ...</h3>
+							<h3>发现我在 ...</h3>
 							<ul class="social">
 								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
@@ -196,7 +200,7 @@
 					</div>
 					<footer>
 						<ul id="copyright">
-							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="https://weibo.com/5138807376/">CN-JackZhang</a></li>
 						</ul>
 					</footer>
 				</div>
